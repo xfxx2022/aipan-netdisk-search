@@ -1,5 +1,4 @@
 <script setup>
-import { inject } from "@vercel/analytics";
 import { useDoubanStore } from "~/stores/douban";
 import { badWords } from "~/utils/sensitiveWords";
 
