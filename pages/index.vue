@@ -108,9 +108,6 @@ onMounted(async () => {
     </div>
   </div>
 </template>
-  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-<script defer src="/_vercel/insights/script.js"></script>
-
 <style scoped>
 :deep(.el-input__wrapper.is-focus) {
   --el-input-focus-border-color: #6648ff;
