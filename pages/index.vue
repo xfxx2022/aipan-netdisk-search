@@ -1,8 +1,3 @@
-<script>
-  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-</script>
-<script defer src="/_vercel/insights/script.js"></script>
-<script setup>
 import { useDoubanStore } from "~/stores/douban";
 import { badWords } from "~/utils/sensitiveWords";
 
@@ -111,7 +106,11 @@ onMounted(async () => {
     </div>
   </div>
 </template>
-
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
+<script setup>
 <style scoped>
 :deep(.el-input__wrapper.is-focus) {
   --el-input-focus-border-color: #6648ff;
