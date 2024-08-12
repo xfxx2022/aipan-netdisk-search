@@ -50,6 +50,7 @@ export default defineNuxtConfig({
     // build modules
     modules: [
         '@element-plus/nuxt',
+        '@vercel/analytics',
         '@nuxtjs/tailwindcss',
         '@nuxtjs/device',
         '@nuxtjs/i18n',
