@@ -1,3 +1,7 @@
+<script>
+  window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+</script>
+<script defer src="/_vercel/insights/script.js"></script>
 <script setup>
 import { useDoubanStore } from "~/stores/douban";
 import { badWords } from "~/utils/sensitiveWords";
@@ -103,7 +107,6 @@ onMounted(async () => {
       <p class="text-center text-[8px] sm:text-[12px] text-slate-400">
         声明：本站内容皆来自网络公开资源。本站不储存、复制、传播任何文件，不做任何盈利，仅作个人公益学习，请勿非法&商业传播，如有侵权，请及时
         <a class="text-blue-500 underline" href="mailto:aidengrong@gmail.com" title="点击留言"> 留言 </a> 告知删除。
-
       </p>
     </div>
   </div>
