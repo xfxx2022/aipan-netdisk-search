@@ -1,4 +1,9 @@
 <script setup>
+import { inject } from '@vercel/analytics';
+ 
+export default defineNuxtPlugin(() => {
+  inject();
+});
 import { useDoubanStore } from "~/stores/douban";
 import { badWords } from "~/utils/sensitiveWords";
 
