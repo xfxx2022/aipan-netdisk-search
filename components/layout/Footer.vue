@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-row items-center justify-center my-[20px]">
     <p class="font-mono text-[12px] text-center text-gray-400">
-       爱盘-网盘资源搜索
+       爱盘搜-网盘资源搜索
     </p>
 
   </div>
